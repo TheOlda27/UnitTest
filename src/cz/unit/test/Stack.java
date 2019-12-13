@@ -1,6 +1,6 @@
 package cz.unit.test;
 
-public class Stack {
+class Stack {
     private String hodnota;
     private Stack zamnou;
 
@@ -12,6 +12,8 @@ public class Stack {
     Stack(String hodnota) {
         this.hodnota = hodnota;
     }
+
+    Stack(){}
 
 
     void push(String hodnota){
